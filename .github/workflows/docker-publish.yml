@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: paiin/discordbot:latest
+          tags: paiin/discordai:latest
          
       -
         name: Image digest
